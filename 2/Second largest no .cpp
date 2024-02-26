@@ -1,5 +1,5 @@
 vector<int> getSecondOrderElements(int n, vector<int> a) {
-    //TC = O(n log n ) + O(n*n) 
+    //TC = O(n log n ) + O(n+n) 
     vector<int> ans;
     sort(a.begin() , a.end());
      for(int i=n-1 ; i>=0 ;i--){
